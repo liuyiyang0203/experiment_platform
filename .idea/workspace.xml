@@ -165,38 +165,9 @@
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/static/scss/style.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/templates/ahnuapp/teachers.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../douban/douban/spiders/douban.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result5.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../split/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/bg_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/static/images/bg_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/person_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/person_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/person_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/staff-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/staff-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/staff-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/staff-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/staff-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/static/images/yiqi5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/static/images/yiqi6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/static/images/yiqi6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/principle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../speech/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../speech/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../speech/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../speech/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../speech/speech recognition/men.mp3/1.mp3" beforeDir="false" />
@@ -413,10 +384,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="616">
               <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -455,8 +426,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="96" column="56" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="56" />
+            <state relative-caret-position="168">
+              <caret line="98" column="67" lean-forward="true" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -471,8 +442,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="96" column="55" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="55" />
+            <state relative-caret-position="84">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -487,7 +458,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="476">
               <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="119" />
               <folding>
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -500,6 +471,19 @@
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -564,7 +548,6 @@
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/principle.py" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/prupose.html" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/principle.html" />
-        <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" />
         <option value="$PROJECT_DIR$/experimentapp/urls.py" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/step1.html" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" />
@@ -578,6 +561,7 @@
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/result5.html" />
         <option value="$PROJECT_DIR$/experimentapp/views.py" />
+        <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" />
       </list>
     </option>
   </component>
@@ -759,23 +743,23 @@
       <workItem from="1572252895547" duration="11954000" />
       <workItem from="1572308695954" duration="17966000" />
       <workItem from="1572340885598" duration="9505000" />
-      <workItem from="1572395250596" duration="6574000" />
+      <workItem from="1572395250596" duration="7746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148322000" />
+    <option name="totallyTimeSpent" value="149494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.20911528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" sideWeight="0.50086653" side_tool="true" weight="0.25938338" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24362606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24362606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -992,30 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
-          <folding>
-            <element signature="e#5062#5068#0#HTML" expanded="true" />
-            <element signature="e#5068#5074#0#HTML" expanded="true" />
-            <element signature="e#5074#5080#0#HTML" expanded="true" />
-            <element signature="e#5080#5086#0#HTML" expanded="true" />
-            <element signature="e#5086#5092#0#HTML" expanded="true" />
-            <element signature="e#5092#5098#0#HTML" expanded="true" />
-            <element signature="e#5098#5104#0#HTML" expanded="true" />
-            <element signature="e#5104#5110#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9277">
@@ -1053,59 +1013,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="96" column="55" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="96" column="56" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="121" column="85" lean-forward="true" selection-start-line="121" selection-start-column="85" selection-end-line="121" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#input#7;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="119" />
-          <folding>
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#4;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1122,10 +1035,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/experimentapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="616">
           <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="98" column="67" lean-forward="true" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#label#0;n#form#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#p#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="119" />
+          <folding>
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#label#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
