@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>环境噪声监测仿真实验平台</title>
+    <title>环境噪声监测实验室</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,7 +30,7 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{% url 'step' %}">环境科学与工程学院</a>
+	      <a class="navbar-brand" href="{% url 'step' %}">环境噪声监测实验室</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 {#	        <span class="oi oi-menu"></span> Menu#}
 	      </button>
@@ -39,11 +39,13 @@
 	        <ul class="navbar-nav ml-auto">
 {#	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>#}
 {#	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>#}
-	          <li class="nav-item"><a href="../content" class="nav-link">实验仪器介绍</a></li>
-	          <li class="nav-item active"><a href="#" class="nav-link">实验步骤</a></li>
+	          <li class="nav-item"><a href="{% url 'purpose' %}" class="nav-link">实验介绍</a></li>
+	          <li class="nav-item"><a href="{% url 'content' %}" class="nav-link">仪器介绍</a></li>
+              <li class="nav-item active"><a href="#" class="nav-link">开始实验</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">现场监测</a></li>
 {#	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>#}
 {#	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>#}
-	          <li class="nav-item cta mr-md-2"><a href="{% url 'user_logout' %}" class="nav-link">退出登录</a></li>
+	          <li style="margin-left: 50px" class="nav-item cta mr-md-2"><a href="{% url 'user_logout' %}" class="nav-link">退出登录</a></li>
 
 	        </ul>
 	      </div>
@@ -65,6 +67,12 @@
 
 		<section class="ftco-section">
 			<div class="container">
+                <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-1">环境噪声监测实验</h2>
+{#            <h2 class="mb-1">（国营红声厂，HS6288B）</h2>#}
+          </div>
+        </div>
         <div class="ftco-schedule">
 					<div class="row">
 {#            <div class="col-md-3 nav-link-wrap text-center text-md-right">#}
@@ -77,210 +85,50 @@
 {##}
 {#	            </div>#}
 {#	          </div>#}
-	          <div class="col-md-9 tab-wrap">
+
+	          <div class="col-md-9 tab-wrap" >
 
 	            <div class="tab-content" id="v-pills-tabContent">
 
 	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 	              	<div class="speaker-wrap ftco-animate d-md-flex">
-	              		<div class="img speaker-img" style="background-image: url(../../static/images/yiqi5.png);"></div>
+	              		<div class="img speaker-img" style="background-image: url(../../static/images/yiqi8.jpg)"></div>
 	              		<div class="text" id="result1">
-	              			<h2>1、请在便携式噪声分析仪箱子中选择实验所需仪器：</h2>
+	              			<h2>1、如左图是便携式噪声分析仪箱子，请从下列选项中选择本实验所需仪器：</h2>
                             <br>
-                                <form action="/result1/" method="post">
+                                <form action="{% url 'step' %}" method="post">
                                     {% csrf_token %}
-                                <label style="font-size: 20px"><input name="peijian1" type="checkbox" value="1" style="zoom: 150%;margin-left: 50px"/>传声器
-                                <input name="peijian2" type="checkbox" value="2" style="zoom: 150%;margin-left: 100px"/>噪声仪主机<br>
-                                <input name="peijian3" type="checkbox" value="3" style="zoom: 150%;margin-left: 50px"/>打印机
-                                <input name="peijian4" type="checkbox" value="4" style="zoom: 150%;margin-left: 100px"/>5号电池<br>
-                                <input name="peijian5" type="checkbox" value="5" style="zoom: 150%;margin-left: 50px"/>螺丝刀
-                                <input name="peijian6" type="checkbox" value="6" style="zoom: 150%;margin-left: 100px"/>防风罩<br>
-                                <input name="peijian7" type="checkbox" value="7" style="zoom: 150%;margin-left: 50px"/>三脚架底座</label>
-                                <input type="submit" class="time" value="确定" style="width: 80px;margin-left: 380px">
-                                </form>
-	              			<p class="location" style="color: red" id="result2"><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg1 }}</p>
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-md-flex">
-	              		<div class="img speaker-img" style=""></div>
-	              		<div class="text">
-	              			<h2>2、噪声频谱分析仪是否需要装配电池：</h2>
-                            <br>
-                            <form action="/result2/" method="post">
-                                    {% csrf_token %}
-                                <label style="font-size: 20px"><input name="shifou" type="radio" value="1" style="zoom: 150%;margin-left: 50px"/>是
-                                <input name="shifou" type="radio" value="2" style="zoom: 150%;margin-left: 100px"/>否<br>
-                                    <input type="submit" class="time" value="确定" style="width: 80px;margin-left: 380px"></label>
-                            </form>
-                            <p class="location" style="color: red" id="result3"><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg2 }}</p>
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-md-flex">
-	              		<div class="img speaker-img" style="background-image: url(../../static/images/yiqi6.jpg);"></div>
-	              		<div class="text">
-	              			<h2>3、根据左图，此时仪器是否需要更换电池：</h2>
-                            <br>
-                            <form action="/result3/" method="post">
-                                    {% csrf_token %}
-                                <label style="font-size: 20px"><input name="change" type="radio" value="1" style="zoom: 150%;margin-left: 50px"/>是
-                                <input name="change" type="radio" value="2" style="zoom: 150%;margin-left: 100px"/>否<br><br>
-                                    <input type="submit" class="time" value="确定" style="width: 80px;margin-left: 380px"></label>
-                            </form>
-                            <p class="location" style="color: red" id="result4"><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg3 }}</p>
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-	              		</div>
-	              	</div>
-                      <div class="speaker-wrap ftco-animate d-md-flex">
-	              		<div class="img speaker-img" style=""></div>
-	              		<div class="text">
-	              			<h2>4、请校准噪声仪：</h2>
-                            <br>
-                            <form action="/result4/" method="post">
-                                    {% csrf_token %}
-                                <p><input style="width: 50px; height: 32px; border: 2px white; float: left;" type="button" value="-" onclick="reductionOf(this)" />
-                                <input style="text-align: center; width: 50px; height: 32px; float: left;margin-left: 100px" name="jiajian" type="text" value="98" onblur="checkNumber(this)" />dB
-                                <input style="width: 50px; height: 32px; border: 2px white;margin-left: 108px" type="button" value="+" onclick="add(this)" /></p><br>
-                                <input type="submit" class="time" value="确定" style="width: 80px;margin-left: 380px">
-                                <script>
-                                        function reductionOf(obj) {
-                    //减前判断
-                                            if ($(obj).next().val() == '') {
-                                                $(obj).next().val(1);
-                                            }
-                                            $(obj).next().val((parseFloat($(obj).next().val()) - 0.1).toFixed(1));//数值减
-                                            $(obj).next().val($(obj).next().val());//赋值给框
-                                        };
-                                            //加数量
-                                        function add(obj) {
-                                                    //加前判断
-                                            if ($(obj).prev().val() == '') {
-                                                $(obj).prev().val(1);
-                                            }
-                                            $(obj).prev().val((parseFloat($(obj).prev().val()) + 0.1).toFixed(1));//数值加
-                                            $(obj).prev().val($(obj).prev().val());//赋值给框
-                                        };
-                                        //校验数字格式（只能输入正整数）
-                                        function checkNumber(obj) {
-                                            if($(obj).val()==''){
-                                                $(obj).val(0.1);
-                                            }
-                                        }
-                                </script>
-                            </form>
-                            <p class="location" style="color: red" id="result5"><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg4 }}</p>
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-	              		</div>
-	              	</div>
-                      <div class="speaker-wrap ftco-animate d-md-flex">
-	              		<div class="img speaker-img" style=""></div>
-	              		<div class="text">
-	              			<h2>5、请选择噪声仪的测定量程和时间计权:</h2>
-                            <br>
-                            <form action="/result5/" method="post">
-                                    {% csrf_token %}
-                               <label style="font-size: 20px"><input name="liangcheng1" type="checkbox" value="1" style="zoom: 150%;margin-left: 50px"/>L
-                                <input name="liangcheng2" type="checkbox" value="2" style="zoom: 150%;margin-left: 104px"/>Fast<br>
-                                <input name="liangcheng3" type="checkbox" value="3" style="zoom: 150%;margin-left: 50px"/>M
-                                <input name="liangcheng4" type="checkbox" value="4" style="zoom: 150%;margin-left: 100px"/>Slow<br>
-                                <input name="liangcheng5" type="checkbox" value="5" style="zoom: 150%;margin-left: 50px"/>H</label>
-                                <input type="submit" class="time" value="确定" style="width: 80px;margin-left: 380px">
-                            </form>
-                            <p class="location" style="color: red"><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg5 }}</p>
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-	              		</div>
-	              	</div>
-	              </div>
+                                <label for="yiqi1"><img src="../../static/images/yiqi1.jpg" alt="" style="width: 150px;height: 150px"/></label>
+                                <input type="checkbox" name="peijian1" id="yiqi1" style="zoom: 150%;margin-left: 10px"/>
 
-{#	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-4.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">ddddddddddddddddddd</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">Introduction to Business Leaders</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">Introduction to Business Leaders</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
+                                <label for="yiqi2"><img src="../../static/images/yiqi2.jpg" alt="" style="width: 150px;height: 150px;margin-left: 80px"/></label>
+                                <input type="checkbox" name="peijian2" id="yiqi2" style="zoom: 150%;margin-left: 10px"/>
+                                <br><br><br><br>
+                                <label for="yiqi3"><img src="../../static/images/yiqi3.jpg" alt="" style="width: 150px;height: 150px"/></label>
+                                <input type="checkbox" name="peijian3" id="yiqi3" style="zoom: 150%;margin-left: 10px"/>
+
+                                <label for="yiqi4"><img src="../../static/images/yiqi4.jpg" alt="" style="width: 150px;height: 150px;margin-left: 80px"/></label>
+                                <input type="checkbox" name="peijian4" id="yiqi4" style="zoom: 150%;margin-left: 10px"/>
+                                <br><br><br><br>
+                                <label for="yiqi5"><img src="../../static/images/yiqi5.jpg" alt="" style="width: 150px;height: 150px"/></label>
+                                <input type="checkbox" name="peijian5" id="yiqi5" style="zoom: 150%;margin-left: 10px"/>
+
+                                <label for="yiqi6"><img src="../../static/images/yiqi6.jpg" alt="" style="width: 150px;height: 150px;margin-left: 80px"/></label>
+                                <input type="checkbox" name="peijian6" id="yiqi6" style="zoom: 150%;margin-left: 10px"/>
+                                <br><br><br><br>
+                                <label for="yiqi7"><img src="../../static/images/yiqi7.jpg" alt="" style="width: 150px;height: 150px"/></label>
+                                <input type="checkbox" name="peijian7" id="yiqi7" style="zoom: 150%;margin-left: 10px"/>
+
+                                <input type="submit" class="time" value="下一题" style="width: 100px;margin-left: 500px"/>
+                                </form>
+{#                            <p class="location" style="color: red" ><span class="icon-map-o mr-2"></span>答题结果：{{ error_msg1 }}</p>#}
 {#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
 {#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              </div>#}
-{#	              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-3.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">Introduction to Business Leaders</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-4.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">Introduction to Business Leaders</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              	<div class="speaker-wrap ftco-animate d-md-flex">#}
-{#	              		<div class="img speaker-img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
-{#	              		<div class="text">#}
-{#	              			<h2><a href="#">Introduction to Business Leaders</a></h2>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<span class="time">09:00 am - 4:30 pm</span>#}
-{#	              			<p class="location"><span class="icon-map-o mr-2"></span>20 July 2019 - Hall, Building Los Angeles CA</p>#}
-{#	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>#}
-{#	              			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>#}
-{#	              		</div>#}
-{#	              	</div>#}
-{#	              </div>#}
-	            </div>
+	              		</div>
+	              	</div>
+
+	              </div>
+                </div>
 	          </div>
 	        </div>
         </div>
@@ -316,8 +164,8 @@
         <div class="row mb-5">
           <div class="col-md" style="margin-left: 100px">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">实验教学方法的使用目的</h2>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程专业是一门应用型的交叉学科，为培养能适应国家与社会需要的人才，在实验教学环节对学生的实验基础与实践能力提出了更高的要求。环境实验教学不能固步自封，继续采用十年之前的技术教学是落后的，而是需要积极不断地推进教学改革。培养高素质高质量的人才，以适应新时代的需求，也是我们教学的根本。</p>
+              <h2 class="ftco-heading-2">实验中心</h2>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程学院实验中心（安徽师范大学分析测试中心），目前承担环境科学与工程学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，食品科学基础实验，环境科学综合实验，食品科学综合实验，环境科学专业实验，环境工程专业实验，食品科学与工程专业实验以及食品质量与安全专业实验。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
 {#              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -336,18 +184,18 @@
 {#              </ul>#}
 {#            </div>#}
 {#          </div>#}
-          <div class="col-md" style="margin-left: 500px">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">链接</h2>
-              <ul class="list-unstyled">
-                <li><a href="#result1" class="py-2 d-block">第一题</a></li>
-                <li><a href="#result2" class="py-2 d-block">第二题</a></li>
-                <li><a href="#result3" class="py-2 d-block">第三题</a></li>
-                <li><a href="#result4" class="py-2 d-block">第四题</a></li>
-                <li><a href="#result5" class="py-2 d-block">第五题</a></li>
-              </ul>
-            </div>
-          </div>
+{#          <div class="col-md" style="margin-left: 500px">#}
+{#             <div class="ftco-footer-widget mb-4">#}
+{#              <h2 class="ftco-heading-2">链接</h2>#}
+{#              <ul class="list-unstyled">#}
+{#                <li><a href="#result1" class="py-2 d-block">第一题</a></li>#}
+{#                <li><a href="#result2" class="py-2 d-block">第二题</a></li>#}
+{#                <li><a href="#result3" class="py-2 d-block">第三题</a></li>#}
+{#                <li><a href="#result4" class="py-2 d-block">第四题</a></li>#}
+{#                <li><a href="#result5" class="py-2 d-block">第五题</a></li>#}
+{#              </ul>#}
+{#            </div>#}
+{#          </div>#}
 {#          <div class="col-md">#}
 {#            <div class="ftco-footer-widget mb-4">#}
 {#            	<h2 class="ftco-heading-2">Have a Questions?</h2>#}

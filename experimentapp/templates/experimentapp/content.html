@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>环境噪声监测仿真实验平台</title>
+    <title>环境噪声监测实验室</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,7 +30,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="../content">环境科学与工程学院</a>
+	      <a class="navbar-brand" href="{% url 'content' %}">环境噪声监测实验室</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 {#	        <span class="oi oi-menu"></span> Menu#}
 	      </button>
@@ -39,11 +39,13 @@
 	        <ul class="navbar-nav ml-auto">
 {#	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>#}
 {#	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>#}
-	          <li class="nav-item active"><a href="#" class="nav-link">实验仪器介绍</a></li>
-	          <li class="nav-item"><a href="../step" class="nav-link">实验步骤</a></li>
+	          <li class="nav-item"><a href="{% url 'purpose' %}" class="nav-link">实验介绍</a></li>
+	          <li class="nav-item active"><a href="#" class="nav-link">仪器介绍</a></li>
+	          <li class="nav-item"><a href="{% url 'step' %}" class="nav-link">开始实验</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">现场监测</a></li>
 {#	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>#}
 {#	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>#}
-	          <li class="nav-item cta mr-md-2"><a href="{% url 'user_logout' %}" class="nav-link">退出登录</a></li>
+	          <li style="margin-left: 50px" class="nav-item cta mr-md-2"><a href="{% url 'user_logout' %}" class="nav-link">退出登录</a></li>
 
 	        </ul>
 	      </div>
@@ -62,19 +64,20 @@
 {#        </div>#}
 {#      </div>#}
 {#    </section>#}
-   	
-		<section class="ftco-section" id="yiqi1">
+
+      <section class="ftco-section" id="yiqi1">
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
             <h2 class="mb-1">精密型噪声频谱分析仪</h2>
-            <h2 class="mb-1">（国营红声厂，HS6288B）</h2>
+{#            <h2 class="mb-1">（国营红声厂，HS6288B）</h2>#}
           </div>
         </div>
-        <div class="row">
+        <div class="row" style="float: right">
         	<div class="col-md-6 d-flex align-items-stretch">
         		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
-	        		<div class="img" style="background-image: url(../../static/images/yiqi1.png);">
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.jpg);width: 500px;height: 500px">#}
+                        <img style="height: 600px;width: 500px" src="../../static/images/yiqi1.jpg" alt="yiqi1"/>
 {#	        			<div class="text text-absolute">#}
 {#		        			<h3>Robert Bonner</h3>#}
 {#		        			<span class="position">Businessmen</span>#}
@@ -91,9 +94,9 @@
         		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
 	        		<div class="text pl-4">
-	        			<h3>应用范围及特点介绍：</h3>
+	        			<h3>仪器工作原理：</h3>
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主要性能符合《JJG188—2002声级计检定规程》和IEC61672标准对2级声级计要求。HS6288B型噪声频谱分析仪是一种袖珍式智能化的噪声测量仪器，它集积分、噪声统计、噪声频谱,噪声采集等几种功能于一体，在设计和功能上都有许多创新，能满足多种测量要求，本仪器具有大屏幕液晶显示，内置1/1频谱分析、时钟设置、自动测量存储等效连续声级、统计声级等特点，配套打印机可自动打印出各种测量结果。通过RS—232C接口，主机与微机实现通讯，将测量结果输出打印。测量结果可长期保存在仪器内。本仪器结构紧凑、造型美观、功能多、自动化程度高，可用于环境噪声的测量，也可用于劳动保护、工业卫生及各种机器、车辆、船舶、电器等工业噪声测量。</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;噪声分析仪由传声器、放大器、计权网络和有效值检波器等组成。其原理是：声压大小经传声器后转换成电压讯号，此讯号经前置放大器放大后，再通过计权网络选出所测定的频率(频带)，又经输出放大器放大，最后从显示仪表上指示瞬时声压级的数值(dB)。</p>
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -104,22 +107,11 @@
 	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
 	        		<div class="text pl-4">
-	        			<h3>主要技术指标及功能介绍：</h3>
+	        			<h3>实验原理：</h3>
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>1、测量范围：（以2×10-5Pa为参考）<br>
-                           &nbsp;&nbsp;&nbsp;&nbsp;1) A声级：30～135dB。<br>
-                           &nbsp;&nbsp;&nbsp;&nbsp;2) C声级：40～130dB。<br>
-                           2、频率范围：20Hz～12.5kHz。<br>
-                           3、检波器特性：LMS真有效值，峰值因素：3。<br>
-                           4、时间计权：F（快）、S（慢）、最大值保持。<br>
-                           5、测量时间设定：Man（人工）、10s、1min、5 min、10 min、15 min、20 min、1h、4h、8h、24h、Regular(整时)。<br>
-                           6、自动测量功能：Leq、L5、L10、L50、L90、L95.Lmax、SD、Ld、Ln、Ldn及1/1频谱等。<br>
-                           7、滤波器特性：1/1倍频程；中心频率：31.5Hz、63Hz、125Hz、500Hz、1kHz、2kHz、4kHz、8kHz。<br>
-                           8、测量数据自动存储：500单组数据，50组整时数据和50组滤波器自动测量数据。<br>
-                           9、接口：RS—232C，可外接配套打印机与微机通讯实现测量数据打印与频谱直方图打印输出。<br>
-                           10、校准：使用HS6020声级校准器，声级：94dB、频率1kHz。<br>
-                           11、显示器：54mm×24mm大屏幕液晶数显，具有模拟表针，测量方式、测量时间及时钟、1/1中心频率显示功能。<br>
-                           12、电源：5节LR6型高能碱性电池，直流7.5V，并设有外接电源输入插孔。</p>
+	        			<p> 1、通电检查：开启声级计右侧面上电源开关，显示器应显示A声级，F快特性，显示模拟表针刻度，（如果在左上角出现“Batt”，表示电池不足。）此时加声压，显示数据应跟随变化表示正常。<br>
+                            2、声校准：将声级校准器（94dB、1kHz）配合在传声器上，不振不晃，开启校准器电源，声级计计权设置A、C或Lin，声压级读数应93.8dB，否则调节分析仪右侧面灵敏调节电位器，校准完成取下校准器。如果用活塞发生器（124dB、250Hz），声级计计权必须设置在C或Lin，校准读数应指示在124dB。<br>
+                            3、测定:工作状态下按“方式”键，显示“Regular”，此时按“定时”键可以选择每个小时的测量时间（10s、1m、5m、10m、15m、20m、1h），按“运行键”后开始测量。数据采集完毕后计算结果并存储所有数据。</p>
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -154,22 +146,19 @@
 {#	        		</div>#}
 	        	</div>
         	</div>
-        </div>
-    	</div>
     </section>
-
-      <section class="ftco-section" id="yiqi2">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-1">声源校准器</h2>
-            <h2 class="mb-1">（国营红声厂，HS6020）</h2>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6 d-flex align-items-stretch">
-        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
-	        		<div class="img" style="background-image: url(../../static/images/yiqi2.png);">
+{#		<section class="ftco-section" id="yiqi1">#}
+{#    	<div class="container">#}
+{#    		<div class="row justify-content-center mb-5">#}
+{#          <div class="col-md-7 text-center heading-section ftco-animate">#}
+{#            <h2 class="mb-1">精密型噪声频谱分析仪</h2>#}
+{#            <h2 class="mb-1">（国营红声厂，HS6288B）</h2>#}
+{#          </div>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#        	<div class="col-md-6 d-flex align-items-stretch">#}
+{#        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.jpg);">#}
 {#	        			<div class="text text-absolute">#}
 {#		        			<h3>Robert Bonner</h3>#}
 {#		        			<span class="position">Businessmen</span>#}
@@ -179,43 +168,49 @@
 {#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#		              </ul>#}
 {#		        		</div>#}
-	        		</div>
-	        	</div>
-        	</div>
-        	<div class="col-md-6">
-        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+{#        	<div class="col-md-6">#}
+{#        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3>应用范围及特点介绍：</h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>应用范围及特点介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HS6020型声校准器主要适用本厂生产的所有测试传声器和声学测量仪器，用来对它们进行声压灵须度校准。它体积小，重量轻，性能稳定，使用方便。它符合IEC942“声校准器”中Ⅰ级校准器的技术要求。</p>
+{#	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主要性能符合《JJG188—2002声级计检定规程》和IEC61672标准对2级声级计要求。HS6288B型噪声频谱分析仪是一种袖珍式智能化的噪声测量仪器，它集积分、噪声统计、噪声频谱,噪声采集等几种功能于一体，在设计和功能上都有许多创新，能满足多种测量要求，本仪器具有大屏幕液晶显示，内置1/1频谱分析、时钟设置、自动测量存储等效连续声级、统计声级等特点，配套打印机可自动打印出各种测量结果。通过RS—232C接口，主机与微机实现通讯，将测量结果输出打印。测量结果可长期保存在仪器内。本仪器结构紧凑、造型美观、功能多、自动化程度高，可用于环境噪声的测量，也可用于劳动保护、工业卫生及各种机器、车辆、船舶、电器等工业噪声测量。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
-	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3>主要技术参数及功能介绍：</h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>主要技术指标及功能介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>1、声压级：94dB（以2×10-5Pa为参考）。<br>
-                           2、声压级精度：<br>
-                           &nbsp;&nbsp;&nbsp;&nbsp;1) 20℃±5℃：±0.3dB。<br>
-                           &nbsp;&nbsp;&nbsp;&nbsp;2) 0℃±40℃：±0.5dB。<br>
-                           3、频 率：1000Hz±2%。<br>
-                           4、谐波失真：≤3%。<br>
-                           5、电 源：9伏叠层电池6F22。<br>
-                           6、延时时间：约1分钟。</p>
+{#	        			<p>1、测量范围：（以2×10-5Pa为参考）<br>#}
+{#                           &nbsp;&nbsp;&nbsp;&nbsp;1) A声级：30～135dB。<br>#}
+{#                           &nbsp;&nbsp;&nbsp;&nbsp;2) C声级：40～130dB。<br>#}
+{#                           2、频率范围：20Hz～12.5kHz。<br>#}
+{#                           3、检波器特性：LMS真有效值，峰值因素：3。<br>#}
+{#                           4、时间计权：F（快）、S（慢）、最大值保持。<br>#}
+{#                           5、测量时间设定：Man（人工）、10s、1min、5 min、10 min、15 min、20 min、1h、4h、8h、24h、Regular(整时)。<br>#}
+{#                           6、自动测量功能：Leq、L5、L10、L50、L90、L95.Lmax、SD、Ld、Ln、Ldn及1/1频谱等。<br>#}
+{#                           7、滤波器特性：1/1倍频程；中心频率：31.5Hz、63Hz、125Hz、500Hz、1kHz、2kHz、4kHz、8kHz。<br>#}
+{#                           8、测量数据自动存储：500单组数据，50组整时数据和50组滤波器自动测量数据。<br>#}
+{#                           9、接口：RS—232C，可外接配套打印机与微机通讯实现测量数据打印与频谱直方图打印输出。<br>#}
+{#                           10、校准：使用HS6020声级校准器，声级：94dB、频率1kHz。<br>#}
+{#                           11、显示器：54mm×24mm大屏幕液晶数显，具有模拟表针，测量方式、测量时间及时钟、1/1中心频率显示功能。<br>#}
+{#                           12、电源：5节LR6型高能碱性电池，直流7.5V，并设有外接电源输入插孔。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
+{#	        		</div>#}
+{#	        	</div>#}
 {#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-3.jpg);"></div>#}
 {#	        		<div class="text pl-4">#}
@@ -241,25 +236,23 @@
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
 {#	        		</div>#}
-	        	</div>
-        	</div>
-        </div>
-    	</div>
-    </section>
+{#	        	</div>#}
+{#        	</div>#}
+{#        </div>#}
+{#    </section>#}
 
-
-      <section class="ftco-section" id="yiqi3">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-1">风速风向仪</h2>
+{#      <section class="ftco-section" id="yiqi2">#}
+{#    	<div class="container">#}
+{#    		<div class="row justify-content-center mb-5">#}
+{#          <div class="col-md-7 text-center heading-section ftco-animate">#}
+{#            <h2 class="mb-1">声源校准器</h2>#}
 {#            <h2 class="mb-1">（国营红声厂，HS6020）</h2>#}
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6 d-flex align-items-stretch">
-        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
-	        		<div class="img" style="background-image: url(../../static/images/yiqi3.png);">
+{#          </div>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#        	<div class="col-md-6 d-flex align-items-stretch">#}
+{#        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi2.png);">#}
 {#	        			<div class="text text-absolute">#}
 {#		        			<h3>Robert Bonner</h3>#}
 {#		        			<span class="position">Businessmen</span>#}
@@ -269,56 +262,43 @@
 {#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#		              </ul>#}
 {#		        		</div>#}
-	        		</div>
-	        	</div>
-        	</div>
-        	<div class="col-md-6">
-        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+{#        	<div class="col-md-6">#}
+{#        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3>应用范围及特点介绍：</h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>应用范围及特点介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本仪器为便携设计的三杯式风向风速仪、仪器测量部分采用了单片机技术，可以同时测量瞬时风速、平均风速、瞬时风速、平均风级和对应浪高等5个参数。该仪器所采用的液晶显示屏为专业定制，国内独创，其中测量参数和测量单位直接用汉字显示，而测量数据显示的数字高度达到18mm，便于教学演示时较远距离观察。</p>
+{#	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HS6020型声校准器主要适用本厂生产的所有测试传声器和声学测量仪器，用来对它们进行声压灵须度校准。它体积小，重量轻，性能稳定，使用方便。它符合IEC942“声校准器”中Ⅰ级校准器的技术要求。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
-	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3>主要技术参数及功能介绍：</h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>主要技术参数及功能介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>1、风速指标：<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（1）风速测量范围：0-30米/秒。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（2）风速传感器启运风速：不大于0.8米/秒。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（3）风速测量精度：误差不大于±（0.3±0.03V）米/秒（V-实际风速）。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（4）可显示的风速参数：瞬时风速、平均风速、瞬时风级、平均风级、对应浪高。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（5）显示分辨率：0.1米/秒（风速），1级（风级），0.1米（浪高）。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（6）功能及单位直接用显示汉字显示数字高度：18mm。<br>
-                        2、风向指标：<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（1）风向测量范围：0-360°，16个方位。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（2）风向传感器启动风速：不大于1.0米/秒。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（3）风向测量精度：误差不大于±1/2方位。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（4）风向定北：自动。<br>
-                        3、环境要求：<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（1）工作环境温度：0-45℃。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（2）工作环境湿度：≤90%RH（无凝结）。<br>
-                        4、供电电源：<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（1）电源电压：4.5V 5#干电池3节。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（2）平均耗电流量：≤5mA（电源为4.5V时）。<br>
-                        5、尺寸及重量：<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（1）外形尺寸：400mm*100mm*100mm。<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;（2）重量：0.5kg。</p>
+{#	        			<p>1、声压级：94dB（以2×10-5Pa为参考）。<br>#}
+{#                           2、声压级精度：<br>#}
+{#                           &nbsp;&nbsp;&nbsp;&nbsp;1) 20℃±5℃：±0.3dB。<br>#}
+{#                           &nbsp;&nbsp;&nbsp;&nbsp;2) 0℃±40℃：±0.5dB。<br>#}
+{#                           3、频 率：1000Hz±2%。<br>#}
+{#                           4、谐波失真：≤3%。<br>#}
+{#                           5、电 源：9伏叠层电池6F22。<br>#}
+{#                           6、延时时间：约1分钟。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
+{#	        		</div>#}
+{#	        	</div>#}
 {#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-3.jpg);"></div>#}
 {#	        		<div class="text pl-4">#}
@@ -344,25 +324,23 @@
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
 {#	        		</div>#}
-	        	</div>
-        	</div>
-        </div>
-    	</div>
-    </section>
+{#	        	</div>#}
+{#        	</div>#}
+{#    </section>#}
 
 
-      <section class="ftco-section" id="yiqi4">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-1">噪声分析仪配备的三脚架</h2>
+{#      <section class="ftco-section" id="yiqi3">#}
+{#    	<div class="container">#}
+{#    		<div class="row justify-content-center mb-5">#}
+{#          <div class="col-md-7 text-center heading-section ftco-animate">#}
+{#            <h2 class="mb-1">风速风向仪</h2>#}
 {#            <h2 class="mb-1">（国营红声厂，HS6020）</h2>#}
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6 d-flex align-items-stretch">
-        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
-	        		<div class="img" style="background-image: url(../../static/images/yiqi4.png);">
+{#          </div>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#        	<div class="col-md-6 d-flex align-items-stretch">#}
+{#        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi3.png);">#}
 {#	        			<div class="text text-absolute">#}
 {#		        			<h3>Robert Bonner</h3>#}
 {#		        			<span class="position">Businessmen</span>#}
@@ -372,43 +350,56 @@
 {#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#		              </ul>#}
 {#		        		</div>#}
-	        		</div>
-	        	</div>
-        	</div>
-        	<div class="col-md-6">
-        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+{#        	<div class="col-md-6">#}
+{#        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3>应用范围及特点介绍：</h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>应用范围及特点介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三脚架的作用无论是对于业余用户还是专业用户都不可忽视的，它的主要作用就是稳定仪器。</p>
+{#	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本仪器为便携设计的三杯式风向风速仪、仪器测量部分采用了单片机技术，可以同时测量瞬时风速、平均风速、瞬时风速、平均风级和对应浪高等5个参数。该仪器所采用的液晶显示屏为专业定制，国内独创，其中测量参数和测量单位直接用汉字显示，而测量数据显示的数字高度达到18mm，便于教学演示时较远距离观察。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
-	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
-	        		<div class="text pl-4">
-	        			<h3> </h3>
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>主要技术参数及功能介绍：</h3>#}
 {#	        			<span class="position">Businessman</span>#}
-	        			<p><br>
-                           <br>
-                           <br>
-                          <br>
-                       <br>
-                           <br>
-                           <br>
-                          </p>
+{#	        			<p>1、风速指标：<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（1）风速测量范围：0-30米/秒。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（2）风速传感器启运风速：不大于0.8米/秒。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（3）风速测量精度：误差不大于±（0.3±0.03V）米/秒（V-实际风速）。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（4）可显示的风速参数：瞬时风速、平均风速、瞬时风级、平均风级、对应浪高。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（5）显示分辨率：0.1米/秒（风速），1级（风级），0.1米（浪高）。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（6）功能及单位直接用显示汉字显示数字高度：18mm。<br>#}
+{#                        2、风向指标：<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（1）风向测量范围：0-360°，16个方位。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（2）风向传感器启动风速：不大于1.0米/秒。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（3）风向测量精度：误差不大于±1/2方位。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（4）风向定北：自动。<br>#}
+{#                        3、环境要求：<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（1）工作环境温度：0-45℃。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（2）工作环境湿度：≤90%RH（无凝结）。<br>#}
+{#                        4、供电电源：<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（1）电源电压：4.5V 5#干电池3节。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（2）平均耗电流量：≤5mA（电源为4.5V时）。<br>#}
+{#                        5、尺寸及重量：<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（1）外形尺寸：400mm*100mm*100mm。<br>#}
+{#                        &nbsp;&nbsp;&nbsp;&nbsp;（2）重量：0.5kg。</p>#}
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
-	        		</div>
-	        	</div>
+{#	        		</div>#}
+{#	        	</div>#}
 {#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
 {#	        		<div class="img" style="background-image: url(../../static/images/staff-3.jpg);"></div>#}
 {#	        		<div class="text pl-4">#}
@@ -434,11 +425,97 @@
 {#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
 {#	              </ul>#}
 {#	        		</div>#}
-	        	</div>
-        	</div>
-        </div>
-    	</div>
-    </section>
+{#	        	</div>#}
+{#        	</div>#}
+{#    </section>#}
+{##}
+{##}
+{#      <section class="ftco-section" id="yiqi4">#}
+{#    	<div class="container">#}
+{#    		<div class="row justify-content-center mb-5">#}
+{#          <div class="col-md-7 text-center heading-section ftco-animate">#}
+{#            <h2 class="mb-1">噪声分析仪配备的三脚架</h2>#}
+{#            <h2 class="mb-1">（国营红声厂，HS6020）</h2>#}
+{#          </div>#}
+{#        </div>#}
+{#        <div class="row">#}
+{#        	<div class="col-md-6 d-flex align-items-stretch">#}
+{#        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi4.png);">#}
+{#	        			<div class="text text-absolute">#}
+{#		        			<h3>Robert Bonner</h3>#}
+{#		        			<span class="position">Businessmen</span>#}
+{#		        			<ul class="ftco-social mt-3">#}
+{#		                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#		              </ul>#}
+{#		        		</div>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+{#        	<div class="col-md-6">#}
+{#        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/staff-1.jpg);"></div>#}
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>应用范围及特点介绍：</h3>#}
+{#	        			<span class="position">Businessman</span>#}
+{#	        			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三脚架的作用无论是对于业余用户还是专业用户都不可忽视的，它的主要作用就是稳定仪器。</p>#}
+{#	        			<ul class="ftco-social">#}
+{#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#	              </ul>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/staff-2.jpg);"></div>#}
+{#	        		<div class="text pl-4">#}
+{#	        			<h3> </h3>#}
+{#	        			<span class="position">Businessman</span>#}
+{#	        			<p><br>#}
+{#                           <br>#}
+{#                           <br>#}
+{#                          <br>#}
+{#                       <br>#}
+{#                           <br>#}
+{#                           <br>#}
+{#                          </p>#}
+{#	        			<ul class="ftco-social">#}
+{#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#	              </ul>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/staff-3.jpg);"></div>#}
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>Ryan Sy</h3>#}
+{#	        			<span class="position">Businessman</span>#}
+{#	        			<p>A small river named Duden flows by their place and supplies</p>#}
+{#	        			<ul class="ftco-social">#}
+{#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#	              </ul>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#	        	<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">#}
+{#	        		<div class="img" style="background-image: url(../../static/images/staff-4.jpg);"></div>#}
+{#	        		<div class="text pl-4">#}
+{#	        			<h3>Alysa Derick</h3>#}
+{#	        			<span class="position">Businesswoman</span>#}
+{#	        			<p>A small river named Duden flows by their place and supplies</p>#}
+{#	        			<ul class="ftco-social">#}
+{#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#	              </ul>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+{#    </section>#}
 		
 {#		<section class="ftco-section-parallax ftco-section ftco-no-pt">#}
 {#      <div class="parallax-img d-flex align-items-center">#}
@@ -468,8 +545,8 @@
         <div class="row mb-5">
           <div class="col-md" style="margin-left: 100px">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">实验教学方法的使用目的</h2>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程专业是一门应用型的交叉学科，为培养能适应国家与社会需要的人才，在实验教学环节对学生的实验基础与实践能力提出了更高的要求。环境实验教学不能固步自封，继续采用十年之前的技术教学是落后的，而是需要积极不断地推进教学改革。培养高素质高质量的人才，以适应新时代的需求，也是我们教学的根本。</p>
+              <h2 class="ftco-heading-2">实验中心</h2>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程学院实验中心（安徽师范大学分析测试中心），目前承担环境科学与工程学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，食品科学基础实验，环境科学综合实验，食品科学综合实验，环境科学专业实验，环境工程专业实验，食品科学与工程专业实验以及食品质量与安全专业实验。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
 {#              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -488,17 +565,17 @@
 {#              </ul>#}
 {#            </div>#}
 {#          </div>#}
-          <div class="col-md" style="margin-left: 500px">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">链接</h2>
-              <ul class="list-unstyled">
-                <li><a href="#yiqi1" class="py-2 d-block">精密型噪声频谱分析仪</a></li>
-                <li><a href="#yiqi2" class="py-2 d-block">声源校准器</a></li>
-                <li><a href="#yiqi3" class="py-2 d-block">风速风向仪</a></li>
-                <li><a href="#yiqi4" class="py-2 d-block">噪声分析仪配备的三脚架</a></li>
-              </ul>
-            </div>
-          </div>
+{#          <div class="col-md" style="margin-left: 500px">#}
+{#             <div class="ftco-footer-widget mb-4">#}
+{#              <h2 class="ftco-heading-2">链接</h2>#}
+{#              <ul class="list-unstyled">#}
+{#                <li><a href="#yiqi1" class="py-2 d-block">精密型噪声频谱分析仪</a></li>#}
+{#                <li><a href="#yiqi2" class="py-2 d-block">声源校准器</a></li>#}
+{#                <li><a href="#yiqi3" class="py-2 d-block">风速风向仪</a></li>#}
+{#                <li><a href="#yiqi4" class="py-2 d-block">噪声分析仪配备的三脚架</a></li>#}
+{#              </ul>#}
+{#            </div>#}
+{#          </div>#}
 {#          <div class="col-md">#}
 {#            <div class="ftco-footer-widget mb-4">#}
 {#            	<h2 class="ftco-heading-2">Have a Questions?</h2>#}
