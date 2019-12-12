@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MyHealth-master/.idea/MyHealth.iml" filepath="$PROJECT_DIR$/../MyHealth-master/.idea/MyHealth.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ahnu_big_data_platform/.idea/ahnu_big_data_platform.iml" filepath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/ahnu_big_data_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/experiment_platform.iml" filepath="$PROJECT_DIR$/.idea/experiment_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/../reservation/.idea/reservation.iml" filepath="$PROJECT_DIR$/../reservation/.idea/reservation.iml" />

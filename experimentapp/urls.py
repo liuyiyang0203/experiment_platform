@@ -13,4 +13,6 @@ urlpatterns = [
     path('result4/', views.result4, name='result4'),
     path('result5/', views.result5, name='result5'),
     path('user_logout/', views.user_logout, name='user_logout'),
+    path('experiment/', views.experiment, name='experiment'),
+    path('docx/', views.docx),
 ]

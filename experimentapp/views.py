@@ -5,6 +5,7 @@ from django.contrib.auth import logout
 from django.contrib.auth import login as auth_login
 from .models import RUser
 from django.contrib.auth.decorators import login_required
+import os
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
@@ -143,6 +144,15 @@ def result5(request):
     return render(request, 'experimentapp/result5.html', {'error_msg1': error_msg1, 'error_msg2': error_msg2, 'error_msg3': error_msg3, 'error_msg4': error_msg4, 'error_msg5': error_msg5})
 
 
+@login_required
+def experiment(request):
+    if request.method == 'POST':
+        # os.system(r'"D://python//experiment_platform//factory.exe"')
+        os.system(r'"/home/experiment_platform/factory.exe"')
+        return render(request, 'experimentapp/experiment.html')
+    return render(request, 'experimentapp/experiment.html')
+
+
 @csrf_exempt
 def user_logout(request):
     if request.user.is_authenticated:
@@ -150,3 +160,9 @@ def user_logout(request):
         return HttpResponseRedirect('/index')
     else:
         return HttpResponseRedirect('/index')
+
+
+def docx(request):
+    # os.system(r'"D://python//experiment_platform//实验报告.docx"')
+    os.system(r'"/home/experiment_platform/实验报告.docx"')
+    return HttpResponseRedirect('/experiment')
