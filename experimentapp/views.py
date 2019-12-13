@@ -1,5 +1,5 @@
 from django.contrib import auth
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, FileResponse
 from django.shortcuts import render
 from django.contrib.auth import logout
 from django.contrib.auth import login as auth_login
@@ -147,7 +147,7 @@ def result5(request):
 @login_required
 def experiment(request):
     if request.method == 'POST':
-        os.system(r'"D://python//experiment_platform//factory.exe"')
+        os.system(r'"D://python//experiment_platform//factory//factory.exe"')
         # os.system(r'"/home/experiment_platform/factory1.exe"')
         return render(request, 'experimentapp/experiment.html')
     return render(request, 'experimentapp/experiment.html')
@@ -161,8 +161,3 @@ def user_logout(request):
     else:
         return HttpResponseRedirect('/index')
 
-
-def docx(request):
-    os.system(r'"D://python//experiment_platform//实验报告.docx"')
-    # os.system(r'"/home/experiment_platform/实验报告.docx"')
-    return HttpResponseRedirect('/experiment')
