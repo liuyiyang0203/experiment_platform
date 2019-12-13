@@ -147,8 +147,8 @@ def result5(request):
 @login_required
 def experiment(request):
     if request.method == 'POST':
-        # os.system(r'"D://python//experiment_platform//factory.exe"')
-        os.system(r'"/home/experiment_platform/factory1.exe"')
+        os.system(r'"D://python//experiment_platform//factory.exe"')
+        # os.system(r'"/home/experiment_platform/factory1.exe"')
         return render(request, 'experimentapp/experiment.html')
     return render(request, 'experimentapp/experiment.html')
 
@@ -163,6 +163,6 @@ def user_logout(request):
 
 
 def docx(request):
-    # os.system(r'"D://python//experiment_platform//实验报告.docx"')
-    os.system(r'"/home/experiment_platform/实验报告.docx"')
+    os.system(r'"D://python//experiment_platform//实验报告.docx"')
+    # os.system(r'"/home/experiment_platform/实验报告.docx"')
     return HttpResponseRedirect('/experiment')

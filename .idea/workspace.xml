@@ -165,197 +165,9 @@
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/static/scss/style.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/templates/ahnuapp/teachers.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../douban/douban/spiders/douban.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/templates/comment/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/templates/comment/response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/css/mixins/_text-hide.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/flaticon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/jquery.timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/css/style_new.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/backup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/flaticon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/font/flaticon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/flaticon/license/license.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/css/_ionicons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/open-iconic/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/open-iconic/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/open-iconic/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/fonts/open-iconic/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/bg_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/bg_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/image_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/loc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/person_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/person_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/person_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/person_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/images/yiqi6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/google-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.animateNumber.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.stellar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/js/scrollax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/static/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../split/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e212d1cf-fdc2-459b-9282-c8865e6386fc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/experiment_platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/experiment_platform.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_platform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_platform/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_platform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_platform/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result1.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result5.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/result5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experimentapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reservation/static/css/index0.css" beforeDir="false" afterPath="$PROJECT_DIR$/../reservation/static/css/index0.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reservation/static/img/house1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../reservation/static/img/house1.jpg" afterDir="false" />
@@ -577,11 +389,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="56">
+              <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -592,8 +404,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="168">
+              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -601,11 +413,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experimentapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4095">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="273">
+              <caret line="155" column="12" lean-forward="true" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -974,12 +789,12 @@
       <workItem from="1575455346247" duration="7399000" />
       <workItem from="1575967273170" duration="4106000" />
       <workItem from="1576062474379" duration="3687000" />
-      <workItem from="1576144361536" duration="9944000" />
+      <workItem from="1576144361536" duration="10981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227564000" />
+    <option name="totallyTimeSpent" value="228601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -990,7 +805,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31444758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33427763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1332,20 +1147,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experimentapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -1354,8 +1159,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/experimentapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4095">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="273">
+          <caret line="155" column="12" lean-forward="true" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
