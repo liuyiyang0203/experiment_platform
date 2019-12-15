@@ -146,10 +146,6 @@ def result5(request):
 
 @login_required
 def experiment(request):
-    if request.method == 'POST':
-        os.system(r'"D://python//experiment_platform//factory//factory.exe"')
-        # os.system(r'"/home/experiment_platform/factory1.exe"')
-        return render(request, 'experimentapp/experiment.html')
     return render(request, 'experimentapp/experiment.html')
 
 
