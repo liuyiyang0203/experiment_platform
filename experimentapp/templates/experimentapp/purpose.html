@@ -42,7 +42,7 @@
 	          <li class="nav-item active"><a href="" class="nav-link">实验介绍</a></li>
 	          <li class="nav-item"><a href="{% url 'content' %}" class="nav-link">仪器介绍</a></li>
 {#	          <li class="nav-item"><a href="{% url 'step' %}" class="nav-link">开始实验</a></li>#}
-	          <li class="nav-item"><a href="{% url 'experiment' %}" class="nav-link">现场监测</a></li>
+	          <li class="nav-item"><a href="{% url 'experiment' %}" class="nav-link">开始实验</a></li>
 	          <li class="nav-item"><a href="../comment" class="nav-link">师生论坛</a></li>
 {#	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>#}
 {#	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>#}
@@ -90,6 +90,7 @@
 	        		</div>
 	        	</div>
         	</div>
+            <br>
         	<div class="col-md-6">
         		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/gongshi1.jpg);"></div>#}
@@ -108,25 +109,14 @@
 	        		</div>
 	        	</div>
 	        	</div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="float: right">
         		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/gongshi1.jpg);"></div>#}
 	        		<div class="text pl-4">
-	        			<h3>实验原理：</h3>
-{#	        			<span class="position">Businessman</span>#}
-	        			<p> 1、噪声的环境学定义:<br>
-                            （1）在物理学上，不同频率与不同声强的声波杂乱组合。<br>
-                            （2）生理学上，让人感觉烦恼、厌恶的声音。<br>
-                            （3）在环境科学中，噪声，是由两方面因素决定的，一是客观因素即声音的物理学特点；二是主观因素即人们的生活、工作情况和精神状态等。环境噪声，是指在工业生产、建筑施工、交通运输和社会生活中所产生的干扰周围生活环境的声音。<br>
-                            2、噪声大小的物理量与评价值：<br>
-                            （1）声压级：<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人们日常听到的声音，从1×10<sup>-5</sup>Pa 到10Pa声压的绝对值变化非常之大，达100万倍。且人体对声音信号强弱刺激的反应不是线性的，而是成对数比例关系，因此用声压比的对数来表示声音的大小，这就是声压级。其符号为L<sub>p</sub>，单位是分贝(dB)，定义为：将待测声压P平方与基准声压P<sub>0</sub>平方的比值，取以lg为底的对数，再乘以10，即，L<sub>p</sub> = 10lgP<sup>2</sup>/P<sub>0</sub><sup>2</sup>，式中，P<sub>0</sub>：为2×10<sup>-5</sup>Pa；P：为测量的声压(Pa)。<br>
-                            （2）A声级：<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测量噪声强度常用的仪器是声级计，声级计是按A、B、C、D四种计权网络来设计的。A计权声级是模拟人耳对55dB以下低强度噪声的频率特性。近年来人们发现A声级用来作噪声度量标准，能较好地反映出人们对噪声吵闹的主观感觉。A声级几乎成为一切噪声评价的基本值。对稳定噪声可以直接用A声级评价。A计权后的声压级称为A声级，符号LA，单位dB（A）。<br>
-                            （3）连续有效声级：<br>
+	        			<p>（3）连续有效声级：<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用噪声能量按时间平均的方法来评价噪声对人的影响，即等效连续声级，符号Leq。它用一个在相同的时间内声能与之相等的连续稳定的A声来表示该时间段内不稳定噪声的大小。因此，等效连续声级反映在声级不稳定的情况下，人实际所接受的噪声能量的大小，它是一个用来表示随时间变化的噪声的等效量。计算公式如下：（用下图来解释这个计算原理）<br>
-                            <img style="width: 250px;height: 80px;margin-left: 50px" src="../../static/images/gongshi.jpg"  alt="公式" /></p>
-                            <img style="width: 500px;height: 500px" src="../../static/images/flash.gif"  alt="稳态非稳态噪声图" />
+                            <img style="width: 250px;height: 80px;margin-left: 50px" src="../../static/images/gongshi.jpg"  alt="公式" />
+                        <img style="width: 500px;height: 500px" src="../../static/images/flash.gif"  alt="稳态非稳态噪声图" /></p>
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -135,6 +125,31 @@
 	        		</div>
 	        	</div>
 	        	</div>
+            <div class="col-md-6">
+        		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+{#	        		<div class="img" style="background-image: url(../../static/images/gongshi1.jpg);"></div>#}
+	        		<div class="text pl-4">
+	        			<h3>实验原理：</h3>
+{#	        			<span class="position">Businessman</span>#}
+	        			<h5>1、噪声的环境学定义:</h5>
+                            <p>（1）在物理学上，不同频率与不同声强的声波杂乱组合。<br>
+                            （2）生理学上，让人感觉烦恼、厌恶的声音。<br>
+                            （3）在环境科学中，噪声，是由两方面因素决定的，一是客观因素即声音的物理学特点；二是主观因素即人们的生活、工作情况和精神状态等。环境噪声，是指在工业生产、建筑施工、交通运输和社会生活中所产生的干扰周围生活环境的声音。<br>
+                           <h5>2、噪声大小的物理量与评价值：</h5>
+                            （1）声压级：<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人们日常听到的声音，从1×10<sup>-5</sup>Pa 到10Pa声压的绝对值变化非常之大，达100万倍。且人体对声音信号强弱刺激的反应不是线性的，而是成对数比例关系，因此用声压比的对数来表示声音的大小，这就是声压级。其符号为L<sub>p</sub>，单位是分贝(dB)，定义为：将待测声压P平方与基准声压P<sub>0</sub>平方的比值，取以lg为底的对数，再乘以10，即，L<sub>p</sub> = 10lgP<sup>2</sup>/P<sub>0</sub><sup>2</sup>，式中，P<sub>0</sub>：为2×10<sup>-5</sup>Pa；P：为测量的声压(Pa)。<br>
+                            （2）A声级：<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测量噪声强度常用的仪器是声级计，声级计是按A、B、C、D四种计权网络来设计的。A计权声级是模拟人耳对55dB以下低强度噪声的频率特性。近年来人们发现A声级用来作噪声度量标准，能较好地反映出人们对噪声吵闹的主观感觉。A声级几乎成为一切噪声评价的基本值。对稳定噪声可以直接用A声级评价。A计权后的声压级称为A声级，符号LA，单位dB（A）。<br></p>
+
+{#	        			<ul class="ftco-social">#}
+{#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#	                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#	              </ul>#}
+	        		</div>
+	        	</div>
+	        	</div>
+
         	</div>
     </section>
 
