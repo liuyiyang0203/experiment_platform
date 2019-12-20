@@ -5,5 +5,5 @@ app_name = 'comments'
 
 urlpatterns = [
     path('comment/', views.comment, name='comment'),
-    path('response/', views.response, name='response'),
+    # path('response/', views.response, name='response'),
 ]

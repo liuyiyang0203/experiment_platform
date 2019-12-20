@@ -8,7 +8,9 @@ class Comment(models.Model):
     comment = models.TextField(verbose_name='评论')
     time = models.DateTimeField(auto_now_add=True, verbose_name='时间')
     author = models.TextField(max_length=10, verbose_name='作者')
-
+    class Meta:
+        verbose_name = '评论详情'
+        verbose_name_plural = verbose_name
 
 class Response(models.Model):
     reviewers = models.TextField(max_length=10, verbose_name='评论者')
