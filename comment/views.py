@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from .models import Comment, Response
+from experimentapp.models import Post
 import time
 from django.contrib.auth.decorators import login_required
 # Create your views here.
@@ -8,6 +9,7 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def comment(request):
+    a = Post.objects.filter().order_by('-id')
     all = Comment.objects.all().order_by('-time')
     if request.method == 'POST':
         name = request.POST.get('name', None)
@@ -20,9 +22,9 @@ def comment(request):
             a = Comment.objects.create(comment=text, author=name)
             a.save()
             all = Comment.objects.all().order_by('-time')
-            return render(request, 'comment/comment.html', {'all': all})
-        return render(request, 'comment/comment.html', {'all': all, 'error_msg': error_msg})
-    return render(request, 'comment/comment.html', {'all': all})
+            return render(request, 'comment/comment.html', {'all': all, 'views': a[0].views})
+        return render(request, 'comment/comment.html', {'all': all, 'error_msg': error_msg, 'views': a[0].views})
+    return render(request, 'comment/comment.html', {'all': all, 'views': a[0].views})
 
 
 @login_required

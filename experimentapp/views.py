@@ -1,9 +1,9 @@
 from django.contrib import auth
-from django.http import HttpResponseRedirect, FileResponse
-from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404
 from django.contrib.auth import logout
 from django.contrib.auth import login as auth_login
-from .models import RUser
+from .models import RUser, Post
 from django.contrib.auth.decorators import login_required
 import os
 # Create your views here.
@@ -50,12 +50,18 @@ def register(request):
 
 @login_required
 def purpose(request):
-    return render(request, 'experimentapp/purpose.html')
+    a = Post.objects.filter().order_by('-id')
+    # print(a[0].views)
+    a_new = int(a[0].views)+1
+    b = Post.objects.create(views=a_new)
+    b.save()
+    return render(request, 'experimentapp/purpose.html', {'views': a[0].views})
 
 
 @login_required
 def content(request):
-    return render(request, 'experimentapp/content.html')
+    a = Post.objects.filter().order_by('-id')
+    return render(request, 'experimentapp/content.html', {'views': a[0].views})
 
 
 @login_required
@@ -146,7 +152,8 @@ def result5(request):
 
 @login_required
 def experiment(request):
-    return render(request, 'experimentapp/experiment.html')
+    a = Post.objects.filter().order_by('-id')
+    return render(request, 'experimentapp/experiment.html', {'views': a[0].views})
 
 
 @csrf_exempt
