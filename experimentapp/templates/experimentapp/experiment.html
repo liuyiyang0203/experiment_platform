@@ -47,7 +47,7 @@
 {#	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>#}
 {#	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>#}
 	          <li style="margin-left: 50px" class="nav-item cta mr-md-2"><a href="{% url 'user_logout' %}" class="nav-link">退出登录</a></li>
-                <p class="nav-item" style="font-size: 15px;margin-top: 15px;margin-left: 10px">浏览量：{{ views }}</p>
+                <p class="nav-item" style="font-size: 15px;margin-top: 15px;margin-left: 10px;color: red">浏览量：{{ views }}</p>
 	        </ul>
 	      </div>
 	    </div>
@@ -77,6 +77,12 @@
         <div class="row">
         	<div class="col-md-6 d-flex align-items-stretch">
         		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
+                    <form enctype="multipart/form-data" action="/experiment/" method="post">
+                        {% csrf_token %}
+                        <input type="file"  name="myfile"/>
+                        <input type="submit" value="上传成绩"/>
+                        <div style="color:red;">{{ error_msg }}</div>
+                    </form>
 {#                    <a  class="btn btn-primary" style="float: right" href="https://github.com/liuyiyang0203/doc/raw/master/factory.zip" download="factory.zip">实验平台下载</a>#}
 {#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.png);">#}
 {#	        			<div class="text text-absolute">#}
@@ -91,6 +97,7 @@
 	        		</div>
 	        	</div>
         	</div>
+            <br>
             <table border="1" class="table"  style="margin-bottom: 0px;border-top: white;border-left: white;border-right: white  ">
                 <tr><td style="border: white"></td></tr>
             </table>

@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth import logout
 from django.contrib.auth import login as auth_login
-from .models import RUser, Post
+from .models import RUser, Post, Score
 from django.contrib.auth.decorators import login_required
 import os
 # Create your views here.
@@ -153,6 +153,20 @@ def result5(request):
 @login_required
 def experiment(request):
     a = Post.objects.filter().order_by('-id')
+    try:
+        if request.method == 'POST':
+            file = request.FILES.get('myfile', None)
+            string = str(file.read().decode('utf-8'))
+            name = string.split()[0].split('：')[1]
+            number = string.split()[1].split('：')[1]
+            score = string.split()[2].split('：')[1]
+            b = Score.objects.create(name=name, number=number, score=score)
+            b.save()
+            error_msg = '上传成功！'
+            return render(request, 'experimentapp/experiment.html', {'views': a[0].views, 'error_msg': error_msg})
+    except:
+        error_msg = '请正确上传成绩文件！'
+        return render(request, 'experimentapp/experiment.html', {'views': a[0].views, 'error_msg': error_msg})
     return render(request, 'experimentapp/experiment.html', {'views': a[0].views})
 
 
