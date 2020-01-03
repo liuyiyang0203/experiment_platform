@@ -165,20 +165,17 @@
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/static/scss/style.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/ahnuapp/templates/ahnuapp/teachers.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../douban/douban/spiders/douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimentapp/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../speech1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../split/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ahnu_big_data_platform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/templates/comment/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/comment/templates/comment/comment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/experiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reservation/static/css/index0.css" beforeDir="false" afterPath="$PROJECT_DIR$/../reservation/static/css/index0.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reservation/static/img/house1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../reservation/static/img/house1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../speech/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../speech/db.sqlite3" afterDir="false" />
@@ -401,7 +398,20 @@
     <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="82" column="268" selection-start-line="82" selection-start-column="268" selection-end-line="82" selection-end-column="268" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -464,7 +474,6 @@
         <option value="$PROJECT_DIR$/comment/views.py" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/purpose.html" />
         <option value="$PROJECT_DIR$/comment/templates/comment/comment.html" />
-        <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" />
         <option value="$PROJECT_DIR$/aaa.py" />
         <option value="$PROJECT_DIR$/../speech/speechapp/views.py" />
         <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/index.html" />
@@ -475,6 +484,7 @@
         <option value="$PROJECT_DIR$/experimentapp/models.py" />
         <option value="$PROJECT_DIR$/experimentapp/admin.py" />
         <option value="$PROJECT_DIR$/experimentapp/__init__.py" />
+        <option value="$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html" />
       </list>
     </option>
   </component>
@@ -502,29 +512,25 @@
             <path>
               <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="experimentapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="experimentapp" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
+              <item name="experimentapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="experimentapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="experiment_platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="experiment_platform" type="462c0819:PsiDirectoryNode" />
               <item name="experimentapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -609,6 +615,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.experiment_platform">
+    <configuration name="content.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/experiment_platform/experimentapp/templates/experimentapp/content.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="experiment_platform" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -645,28 +654,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaaa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="experiment_platform" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comments/forms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -745,19 +732,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.experiment_platform" />
-      <item itemvalue="Python.forms" />
       <item itemvalue="Python.views" />
       <item itemvalue="Python.views (1)" />
       <item itemvalue="Python.aaa" />
       <item itemvalue="Python.aaaa" />
+      <item itemvalue="JavaScript Debug.content.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.content.html" />
         <item itemvalue="Python.aaaa" />
         <item itemvalue="Python.aaa" />
         <item itemvalue="Python.views (1)" />
         <item itemvalue="Python.views" />
-        <item itemvalue="Python.forms" />
       </list>
     </recent_temporary>
   </component>
@@ -837,22 +824,25 @@
       <workItem from="1576845193955" duration="315000" />
       <workItem from="1576888806834" duration="8709000" />
       <workItem from="1576976980645" duration="807000" />
-      <workItem from="1577061581940" duration="14641000" />
+      <workItem from="1577061581940" duration="15553000" />
+      <workItem from="1577700077363" duration="1812000" />
+      <workItem from="1578012760428" duration="1182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282588000" />
+    <option name="totallyTimeSpent" value="286494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.29088473" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.2989276" />
       <window_info id="Structure" order="1" sideWeight="0.50086653" side_tool="true" weight="0.25938338" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34419262" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26912183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -991,13 +981,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://e35eb4f7-ff4e-4248-8a3c-74a4652a5110/schema/hk_db/table/experimentapp_views">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://e35eb4f7-ff4e-4248-8a3c-74a4652a5110/schema/hk_db/table/experimentapp_views" />
     <entry file="das://e35eb4f7-ff4e-4248-8a3c-74a4652a5110/schema/hk_db/table/django_admin_log">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1039,16 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../speech/speechapp/templates/speechapp/speech.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1056,13 +1030,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa.py" />
     <entry file="file://$PROJECT_DIR$/../speech/speechapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1101,13 +1069,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aaaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aaaa.py" />
     <entry file="file://$PROJECT_DIR$/comment/templates/comment/comment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1250,6 +1212,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experimentapp/templates/experimentapp/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="82" column="268" selection-start-line="82" selection-start-column="268" selection-end-line="82" selection-end-column="268" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
