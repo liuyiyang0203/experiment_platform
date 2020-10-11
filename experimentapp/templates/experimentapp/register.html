@@ -30,7 +30,7 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{% url 'register' %}">环境噪声监测实验室</a>
+	      <img src="../../../static/images/logo.png" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="{% url 'register' %}">环境噪声监测实验室</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 {#	        <span class="oi oi-menu"></span> Menu  dddddddddd#}
 	      </button>
@@ -73,7 +73,7 @@
           		<h2>新用户注册</h2>
                 <br>
 	    				<div class="form-group">
-	    					<input type="text" class="form-control" placeholder="请输入帐号(学号)" name="username">
+	    					<input type="text" class="form-control" placeholder="请输入帐号(请使用学号注册)" name="username">
 	    				</div>
 	    				<div class="form-group">
 	    					<input type="password" class="form-control" placeholder="请输入密码" name="password">
@@ -90,6 +90,7 @@
 	            <div class="form-group">
 	              <input type="submit" value="新用户注册" class="btn btn-primary py-3 px-4">
                     <br>
+                    <p style="color:#2a150f;font-size: 15px">密码忘记的同学请联系管理员删除原账号信息后重新注册</p>
                     <div style="color:red;">{{ error_msg }}</div>
 	            </div>
 	    			</form>

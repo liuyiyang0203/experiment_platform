@@ -26,11 +26,11 @@
     <link rel="stylesheet" href="../../../static/css/icomoon.css">
     <link rel="stylesheet" href="../../../static/css/style_new.css">
   </head>
-  <body>
+  <body style="background-color: #e9f3ff">
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{% url 'purpose' %}">环境噪声监测实验室</a>
+	      <img src="../../../static/images/logo.png" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="{% url 'purpose' %}">环境噪声监测实验室</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 {#	        <span class="oi oi-menu"></span> Menu#}
 	      </button>
@@ -74,24 +74,7 @@
 {#            <h2 class="mb-1">（国营红声厂，HS6288B）</h2>#}
           </div>
         </div>
-        <div class="row">
-        	<div class="col-md-6 d-flex align-items-stretch">
-        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
-{#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.png);">#}
-{#	        			<div class="text text-absolute">#}
-{#		        			<h3>Robert Bonner</h3>#}
-{#		        			<span class="position">Businessmen</span>#}
-{#		        			<ul class="ftco-social mt-3">#}
-{#		                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
-{#		                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
-{#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
-{#		              </ul>#}
-{#		        		</div>#}
-	        		</div>
-	        	</div>
-        	</div>
-            <br>
-        	<div class="col-md-6">
+            <div class="col-md-6" style="float: right">
         		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/gongshi1.jpg);"></div>#}
 	        		<div class="text pl-4">
@@ -109,14 +92,35 @@
 	        		</div>
 	        	</div>
 	        	</div>
+        	<div class="row">
+        	<div class="col-md-6 d-flex align-items-stretch">
+        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
+                    <video controls="controls">
+                        <source src="../../../static/images/mp4.mp4" type="video/mp4" />
+                    </video>
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.png);">#}
+{#	        			<div class="text text-absolute">#}
+{#		        			<h3>Robert Bonner</h3>#}
+{#		        			<span class="position">Businessmen</span>#}
+{#		        			<ul class="ftco-social mt-3">#}
+{#		                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#		              </ul>#}
+{#		        		</div>#}
+	        		</div>
+	        	</div>
+        	</div>
+
+{#            <a href="https://pan.baidu.com/s/1Y0qJ-xrt3aCUc9r5R9dGEA" class="nav-link">管理</a></li>#}
             <div class="col-md-6" style="float: right">
         		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 {#	        		<div class="img" style="background-image: url(../../static/images/gongshi1.jpg);"></div>#}
 	        		<div class="text pl-4">
 	        			<p>（3）连续有效声级：<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用噪声能量按时间平均的方法来评价噪声对人的影响，即等效连续声级，符号Leq。它用一个在相同的时间内声能与之相等的连续稳定的A声来表示该时间段内不稳定噪声的大小。因此，等效连续声级反映在声级不稳定的情况下，人实际所接受的噪声能量的大小，它是一个用来表示随时间变化的噪声的等效量。计算公式如下：（用下图来解释这个计算原理）<br>
-                            <img style="width: 250px;height: 80px;margin-left: 50px" src="../../../static/images/gongshi.jpg" alt="公式" />
-                        <img style="width: 500px;height: 500px" src="../../../static/images/flash.gif" alt="稳态非稳态噪声图" /></p>
+                            <img style="width: 300px;height: 80px;margin-left: 50px" src="../../../static/images/gongshi_new.jpg" alt="公式" />
+                        <img style="width: 500px;height: 500px" src="../../../static/images/flash_new.gif" alt="稳态非稳态噪声图" /></p>
 {#	        			<ul class="ftco-social">#}
 {#	                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#	                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -159,7 +163,7 @@
           <div class="col-md" style="margin-left: 100px">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">实验中心</h2>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程学院实验中心（安徽师范大学分析测试中心），目前承担环境科学与工程学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，食品科学基础实验，环境科学综合实验，食品科学综合实验，环境科学专业实验，环境工程专业实验，食品科学与工程专业实验以及食品质量与安全专业实验。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生态与环境学院实验中心（安徽师范大学分析测试中心），目前承担生态与环境学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，环境科学综合实验，环境科学专业实验，环境工程专业实验，生态学基础实验，植物学、动物学实验，生态学系统试验，生化实验等等。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
 {#              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>#}
@@ -215,7 +219,6 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
 
   <script src="../../../static/js/jquery.min.js"></script>
   <script src="../../../static/js/jquery-migrate-3.0.1.min.js"></script>

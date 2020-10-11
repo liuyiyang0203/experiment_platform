@@ -20,6 +20,7 @@
     <orderEntry type="module" module-name="reservation" />
     <orderEntry type="module" module-name="MyHealth" />
     <orderEntry type="module" module-name="speech" />
+    <orderEntry type="library" name="html5media" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

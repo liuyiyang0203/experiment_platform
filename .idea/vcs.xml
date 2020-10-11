@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ahnu_big_data_platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/static/images/doc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../reservation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../speech" vcs="Git" />
   </component>

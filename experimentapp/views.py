@@ -15,13 +15,15 @@ def index(request):
     if request.method == 'POST':
         username = request.POST.get('username', None)
         password = request.POST.get('password', None)
-        user = auth.authenticate(username=username, password=password)
-        if user is not None:
-            auth_login(request, user)
-            return HttpResponseRedirect('/purpose')
-        else:
-            error_msg = '用户名密码错误'
-            return render(request, 'experimentapp/index.html',{'error_msg': error_msg})
+        yz = request.POST.get('OK', None)
+        if yz == 'ok':
+            user = auth.authenticate(username=username, password=password)
+            if user is not None:
+                auth_login(request, user)
+                return HttpResponseRedirect('/purpose')
+            else:
+                error_msg = '用户名密码错误'
+                return render(request, 'experimentapp/index.html',{'error_msg': error_msg})
     return render(request, 'experimentapp/index.html')
 
 
@@ -156,11 +158,15 @@ def experiment(request):
     try:
         if request.method == 'POST':
             file = request.FILES.get('myfile', None)
+            file1 = request.FILES.get('myfile1', None)
             string = str(file.read().decode('utf-8'))
+            string1 = str(file1.read().decode('utf-8'))
             name = string.split()[0].split('：')[1]
             number = string.split()[1].split('：')[1]
             score = string.split()[2].split('：')[1]
-            b = Score.objects.create(name=name, number=number, score=score)
+            score1 = string1.split()[2].split('：')[1]
+            score_num = 0.5*int(score) + 0.5*int(score1)
+            b = Score.objects.create(name=name, number=number, score=score_num)
             b.save()
             error_msg = '上传成功！'
             return render(request, 'experimentapp/experiment.html', {'views': a[0].views, 'error_msg': error_msg})

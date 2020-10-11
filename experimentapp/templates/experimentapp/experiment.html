@@ -26,11 +26,11 @@
     <link rel="stylesheet" href="../../../static/css/icomoon.css">
     <link rel="stylesheet" href="../../../static/css/style_new.css">
   </head>
-  <body>
+  <body style="background-color: #e9f3ff">
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{% url 'experiment' %}">环境噪声监测实验室</a>
+	     <img src="../../../static/images/logo.png" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp; <a class="navbar-brand" href="{% url 'experiment' %}">环境噪声监测实验室</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 {#	        <span class="oi oi-menu"></span> Menu#}
 	      </button>
@@ -70,16 +70,73 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-1" >工业企业厂界环境噪声监测</h2>
+            <h2 class="mb-1" >环境噪声监测实验</h2>
             <h6 class="mb-1">（若无法下载，请清除浏览器缓存后重试）</h6>
           </div>
         </div>
+            <div>
+                <h4 style="color: #7dff21">工业企业厂界环境噪声监测操作步骤</h4>
+                <p>
+                        1.下载《工业企业厂界环境噪声监测.zip》压缩包<br>
+                        2.运行Factory.exe软件(正常电脑大多选择64位操作系统版本即可)，开始试验：<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;准确填写姓名（注意不要写拼音）和学号<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用键盘“←↑→”引导检测人员前进，当检测人员接近工厂负责人，请记录对话框中工厂生产情况、噪声源以及噪声排放情况。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;继续工厂布点监测：在工厂的四周厂界外围墙中点布置A（东）B（北）C（西）D（南）四个测点。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../../static/images/gongchang.jpg" alt=""/><br>
+                        3.完成每一个测点需要大家手动记录数据，并获得相应分数，完成四个点的测定形成最后分数，该分数会被后台记录，在exe文件同级目录下形成score.html文件，同学们可以选择使用浏览器打开进行成绩查看，并在上传成绩的位置提交。<br>
+                        4.如果在运行虚拟实验过程中出现问题，请大家用ctrl+alt+delete键结束任务，重新实验
+
+                    </p></div>
+{#        <div class="row">#}
+{#        	<div class="col-md-6 d-flex align-items-stretch">#}
+{#        		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">#}
+{#                    <form enctype="multipart/form-data" action="/experiment/" method="post">#}
+{#                        {% csrf_token %}#}
+{#                        <input type="file"  name="myfile"/>#}
+{#                        <input type="submit" value="上传成绩(score.html)"/>#}
+{#                        <div style="color:red;">{{ error_msg }}</div>#}
+{#                    </form>#}
+{#                    <a  class="btn btn-primary" style="float: right" href="https://github.com/liuyiyang0203/doc/raw/master/factory.zip" download="factory.zip">实验平台下载</a>#}
+{#	        		<div class="img" style="background-image: url(../../static/images/yiqi1.png);">#}
+{#	        			<div class="text text-absolute">#}
+{#		        			<h3>Robert Bonner</h3>#}
+{#		        			<span class="position">Businessmen</span>#}
+{#		        			<ul class="ftco-social mt-3">#}
+{#		                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
+{#		                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
+{#		              </ul>#}
+{#		        		</div>#}
+{#	        		</div>#}
+{#	        	</div>#}
+{#        	</div>#}
+            <br>
+            <div>
+                <h4 style="color: #7dff21">建筑施工场界环境噪声监测操作步骤</h4>
+                <p>
+                        1.下载《建筑施工场界环境噪声监测.zip》压缩包<br>
+                        2.运行Construction.exe软件(正常电脑大多选择64位操作系统版本即可)，开始试验：<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;准确填写姓名（注意不要写拼音）和学号<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用键盘“←↑→”引导检测人员前进，当检测人员接近施工地负责人，请记录对话框中施工地生产情况、噪声源以及噪声排放情况。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;继续施工地布点监测：在施工地的四周场界外围墙中点布置A、B、C、D、E五个测点。当测完E点时，点击左上角的6:00AM按钮，依次测量不施工状态下5个点的噪声值。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../../static/images/shigongchang.jpg" alt=""/><br>
+                        3.完成每一个测点需要大家手动记录数据，并获得相应分数，完成五个点的测定形成最后分数，该分数会被后台记录，在exe文件同级目录下形成score.html文件，同学们可以选择使用浏览器打开进行成绩查看，并在上传成绩的位置提交。<br>
+                        4.如果在运行虚拟实验过程中出现问题，请大家用ctrl+alt+delete键结束任务，重新实验
+
+                    </p></div>
         <div class="row">
         	<div class="col-md-6 d-flex align-items-stretch">
         		<div class="speaker speaker-2 ftco-animate d-flex align-items-stretch">
                     <form enctype="multipart/form-data" action="/experiment/" method="post">
                         {% csrf_token %}
                         <input type="file"  name="myfile"/>
+                        <br>
+                        (请选择Factory.exe同级目录下的score.html文件)
+                        <br>
+                        <input type="file"  name="myfile1"/>
+                        <br>
+                        (请选择Construction.exe同级目录下的score.html文件)
+                        <br><br>
                         <input type="submit" value="上传成绩"/>
                         <div style="color:red;">{{ error_msg }}</div>
                     </form>
@@ -106,8 +163,11 @@
                     <th>实验内容</th>
                 </tr>
                   <tr>
-                    <td><a style="color: red" href="https://github.com/liuyiyang0203/doc/raw/master/factory.zip" download="factory.zip">工业企业厂界环境噪声监测实验平台.zip</a><br>
-            <a style="color: red" href="https://github.com/liuyiyang0203/doc/raw/master/工业企业厂界环境噪声测量记录.doc" download="工业企业厂界环境噪声测量记录.doc">工业企业厂界环境噪声测量记录.doc</a><br></td>
+                    <td><a style="color: red" href="../../../static/images/doc/Factory.zip" download="Factory.zip">工业企业厂界环境噪声监测.zip</a><br>
+                        <a style="color: red" href="../../../static/images/doc/Construction.zip" download="Construction.zip">建筑施工场界环境噪声监测.zip</a><br>
+                        <a style="color: red">社会生活环境噪声监测.zip（待开发）</a><br>
+            <a style="color: red" href="../../../static/images/doc/工业企业厂界环境噪声测量记录.doc" download="工业企业厂界环境噪声测量记录.doc">工业企业厂界环境噪声测量记录.doc</a><br>
+            <a style="color: red" href="../../../static/images/doc/建筑施工场界环境噪声测量记录.doc" download="建筑施工场界环境噪声测量记录.doc">建筑施工场界环境噪声测量记录.doc</a><br></td>
                 </tr>
               </table>
             <table border="1" class="table"  style="margin-bottom: 0px">
@@ -115,14 +175,14 @@
                     <th>资料下载</th>
                 </tr>
                   <tr>
-                      <td><a href="https://github.com/liuyiyang0203/doc/raw/master/声环境评价导则2010.pdf" download="声环境评价导则2010.pdf">声环境评价导则2010.pdf</a><br>
-            <a  href="https://github.com/liuyiyang0203/doc/raw/master/声环境质量标准（GB 3096-2008）.pdf" download="声环境质量标准（GB 3096-2008）.pdf">声环境质量标准（GB 3096-2008）.pdf</a><br>
-            <a  href="https://github.com/liuyiyang0203/doc/raw/master/城市区域环境噪声适用区划分技术规范GBT15190-94.pdf" download="城市区域环境噪声适用区划分技术规范GBT15190-94.pdf">城市区域环境噪声适用区划分技术规范GBT15190-94.pdf</a><br>
-            <a href="https://github.com/liuyiyang0203/doc/raw/master/工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf" download="工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf">工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf</a><br>
-            <a href="https://github.com/liuyiyang0203/doc/raw/master/机场周围飞机噪声测量方法.pdf" download="机场周围飞机噪声测量方法.pdf">机场周围飞机噪声测量方法.pdf</a><br>
-            <a href="https://github.com/liuyiyang0203/doc/raw/master/社会生活环境噪声排放标准.pdf" download="社会生活环境噪声排放标准.pdf">社会生活环境噪声排放标准.pdf</a><br>
-            <a href="https://github.com/liuyiyang0203/doc/raw/master/施工厂界噪声排放标准.pdf" download="施工厂界噪声排放标准.pdf">施工厂界噪声排放标准.pdf</a><br>
-            <a href="https://github.com/liuyiyang0203/doc/raw/master/铁路旁边噪声限值及其测量方法.pdf" download="铁路旁边噪声限值及其测量方法.pdf">铁路旁边噪声限值及其测量方法.pdf</a></td>
+                      <td><a href="../../../static/images/doc/声环境评价导则2010.pdf" download="声环境评价导则2010.pdf">声环境评价导则2010.pdf</a><br>
+            <a  href="../../../static/images/doc/声环境质量标准（GB 3096-2008）.pdf" download="声环境质量标准（GB 3096-2008）.pdf">声环境质量标准（GB 3096-2008）.pdf</a><br>
+            <a  href="../../../static/images/doc/城市区域环境噪声适用区划分技术规范GBT15190-94.pdf" download="城市区域环境噪声适用区划分技术规范GBT15190-94.pdf">城市区域环境噪声适用区划分技术规范GBT15190-94.pdf</a><br>
+            <a href="../../../static/images/doc/工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf" download="工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf">工业企业厂界环境噪声排放标准（GB 12348-2008）.pdf</a><br>
+            <a href="../../../static/images/doc/机场周围飞机噪声测量方法.pdf" download="机场周围飞机噪声测量方法.pdf">机场周围飞机噪声测量方法.pdf</a><br>
+            <a href="../../../static/images/doc/社会生活环境噪声排放标准.pdf" download="社会生活环境噪声排放标准.pdf">社会生活环境噪声排放标准.pdf</a><br>
+            <a href="../../../static/images/doc/施工厂界噪声排放标准.pdf" download="施工厂界噪声排放标准.pdf">施工厂界噪声排放标准.pdf</a><br>
+            <a href="../../../static/images/doc/铁路旁边噪声限值及其测量方法.pdf" download="铁路旁边噪声限值及其测量方法.pdf">铁路旁边噪声限值及其测量方法.pdf</a></td>
                 </tr>
               </table>
 
@@ -183,7 +243,7 @@
           <div class="col-md" style="margin-left: 100px">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">实验中心</h2>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境科学与工程学院实验中心（安徽师范大学分析测试中心），目前承担环境科学与工程学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，食品科学基础实验，环境科学综合实验，食品科学综合实验，环境科学专业实验，环境工程专业实验，食品科学与工程专业实验以及食品质量与安全专业实验。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生态与环境学院实验中心（安徽师范大学分析测试中心），目前承担生态与环境学院所有本科实验课程的教学辅助，中心设置实验课程包括：环境科学基础实验，环境科学综合实验，环境科学专业实验，环境工程专业实验，生态学基础实验，植物学、动物学实验，生态学系统试验，生化实验等等。中心现有专职实验人员11人，其中高级实验师7人，实验师3人，博士2人。</p>
 {#              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>#}
 {#                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>#}
